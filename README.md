@@ -2,6 +2,8 @@
 
 This is the public repository for [Tall Dog Electronics](http://tall-dog.com).
 
+Note: [uBraids SE](https://www.tindie.com/products/loglow/ubraids-microbraids-8hp-eurorack-module/) files are stored in their [very own repo](https://github.com/loglow/uBraids_SE).
+
 ## Teensy-Breakout-Eagle-Library.lbr
 
 This is an [Eagle](https://cadsoft.io) library containing the following footprints:
