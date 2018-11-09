@@ -15,3 +15,5 @@ This is an [Eagle](https://cadsoft.io) library containing the following footprin
 * [Teensy 3.2 Breakout (Revision D)](https://www.tindie.com/products/loglow/teensy-32-breakout-revision-d/) (with and without rails)
 * [Teensy 3.5/3.6 Breakout (Revision A, DIP-64)](https://www.tindie.com/products/loglow/teensy-3536-breakout-revision-a-dip-64/) (+A2 with and without rails)
 * [Teensy 3.5/3.6 Breakout (Revision A, Standard)](https://www.tindie.com/products/loglow/teensy-3536-breakout-revision-a-standard/) (+A2 with and without rails)
+* [Teensy 3.5/3.6 Breakout (Revision A, Uno)](https://www.tindie.com/products/loglow/teensy-3536-breakout-revision-a-uno/)
+* [Teensy 3.5/3.6 Breakout (Revision A, Due)](https://www.tindie.com/products/loglow/teensy-3536-breakout-revision-a-due/)

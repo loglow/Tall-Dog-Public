@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.7.0">
+<eagle version="9.2.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -1050,6 +1050,200 @@
 <circle x="11.43" y="12.7" radius="1.905" width="0.127" layer="49"/>
 <circle x="86.36" y="12.7" radius="1.905" width="0.127" layer="49"/>
 </package>
+<package name="TEENSY-3.5/3.6-BREAKOUT-REV-A-UNO">
+<pad name="GND@1" x="17.78" y="2.54" drill="1.016" diameter="1.778"/>
+<pad name="0" x="63.5" y="50.8" drill="1.016" diameter="1.778" rot="R180"/>
+<pad name="1" x="60.96" y="50.8" drill="1.016" diameter="1.778" rot="R180"/>
+<pad name="2" x="58.42" y="50.8" drill="1.016" diameter="1.778" rot="R180"/>
+<pad name="3" x="55.88" y="50.8" drill="1.016" diameter="1.778" rot="R180"/>
+<pad name="4" x="53.34" y="50.8" drill="1.016" diameter="1.778" rot="R180"/>
+<pad name="5" x="50.8" y="50.8" drill="1.016" diameter="1.778" rot="R180"/>
+<pad name="6" x="48.26" y="50.8" drill="1.016" diameter="1.778" rot="R180"/>
+<pad name="7" x="45.72" y="50.8" drill="1.016" diameter="1.778" rot="R180"/>
+<pad name="8" x="41.656" y="50.8" drill="1.016" diameter="1.778" rot="R180"/>
+<pad name="9" x="39.116" y="50.8" drill="1.016" diameter="1.778" rot="R180"/>
+<pad name="10" x="36.576" y="50.8" drill="1.016" diameter="1.778" rot="R180"/>
+<pad name="11@1" x="66.04" y="27.94" drill="1.016" diameter="1.778"/>
+<pad name="12@1" x="63.5" y="30.48" drill="1.016" diameter="1.778"/>
+<pad name="13@1" x="63.5" y="27.94" drill="1.016" diameter="1.778"/>
+<pad name="14" x="50.8" y="2.54" drill="1.016" diameter="1.778" rot="R180"/>
+<pad name="15" x="53.34" y="2.54" drill="1.016" diameter="1.778" rot="R180"/>
+<pad name="16" x="55.88" y="2.54" drill="1.016" diameter="1.778" rot="R180"/>
+<pad name="17" x="58.42" y="2.54" drill="1.016" diameter="1.778" rot="R180"/>
+<pad name="18@1" x="60.96" y="2.54" drill="1.016" diameter="1.778" rot="R180"/>
+<pad name="19@1" x="63.5" y="2.54" drill="1.016" diameter="1.778"/>
+<pad name="20" x="66.04" y="11.43" drill="1.016" diameter="1.778" rot="R270"/>
+<pad name="21" x="66.04" y="13.97" drill="1.016" diameter="1.778" rot="R270"/>
+<pad name="22" x="66.04" y="16.51" drill="1.016" diameter="1.778" rot="R270"/>
+<pad name="23" x="66.04" y="19.05" drill="1.016" diameter="1.778" rot="R270"/>
+<pad name="3V3@1" x="30.48" y="2.54" drill="1.016" diameter="1.778"/>
+<pad name="AGND" x="25.4" y="2.54" drill="1.016" diameter="1.778"/>
+<pad name="VIN" x="45.72" y="2.54" drill="1.016" diameter="1.778"/>
+<pad name="GND@2" x="40.64" y="2.54" drill="1.016" diameter="1.778"/>
+<pad name="VUSB" x="38.1" y="2.54" drill="1.016" diameter="1.778"/>
+<pad name="PRGM" x="22.86" y="2.54" drill="1.016" diameter="1.778"/>
+<pad name="RESET@1" x="33.02" y="2.54" drill="1.016" diameter="1.778"/>
+<pad name="VBAT" x="20.32" y="2.54" drill="1.016" diameter="1.778"/>
+<pad name="AREF" x="23.876" y="50.8" drill="1.016" diameter="1.778"/>
+<pad name="DC" x="39.37" y="39.37" drill="1.016" diameter="1.778"/>
+<pad name="DD" x="41.91" y="39.37" drill="1.016" diameter="1.778"/>
+<wire x1="0" y1="35.56" x2="60.96" y2="35.56" width="0.127" layer="49"/>
+<wire x1="60.96" y1="35.56" x2="60.96" y2="17.78" width="0.127" layer="49"/>
+<wire x1="60.96" y1="17.78" x2="0" y2="17.78" width="0.127" layer="49"/>
+<wire x1="0" y1="17.78" x2="0" y2="35.56" width="0.127" layer="49"/>
+<text x="1.27" y="21.59" size="2.032" layer="49">&gt;NAME</text>
+<text x="1.27" y="19.05" size="1.016" layer="49">&gt;VALUE</text>
+<circle x="13.97" y="2.54" radius="1.5875" width="0.127" layer="49"/>
+<wire x1="0" y1="0" x2="66.04" y2="0" width="0.127" layer="21"/>
+<wire x1="66.04" y1="0" x2="66.04" y2="2.54" width="0.127" layer="21"/>
+<wire x1="66.04" y1="2.54" x2="68.58" y2="5.08" width="0.127" layer="21"/>
+<wire x1="68.58" y1="5.08" x2="68.58" y2="38.1" width="0.127" layer="21"/>
+<wire x1="68.58" y1="38.1" x2="66.04" y2="40.64" width="0.127" layer="21"/>
+<wire x1="66.04" y1="40.64" x2="66.04" y2="51.816" width="0.127" layer="21"/>
+<wire x1="66.04" y1="51.816" x2="64.516" y2="53.34" width="0.127" layer="21"/>
+<wire x1="64.516" y1="53.34" x2="0" y2="53.34" width="0.127" layer="21"/>
+<wire x1="0" y1="53.34" x2="0" y2="0" width="0.127" layer="21"/>
+<circle x="15.24" y="50.8" radius="1.5875" width="0.127" layer="49"/>
+<circle x="66.04" y="35.56" radius="1.5875" width="0.127" layer="49"/>
+<circle x="66.04" y="7.62" radius="1.5875" width="0.127" layer="49"/>
+<pad name="3V3@2" x="35.56" y="2.54" drill="1.016" diameter="1.778"/>
+<pad name="NC" x="27.94" y="2.54" drill="1.016" diameter="1.778"/>
+<pad name="GND@3" x="43.18" y="2.54" drill="1.016" diameter="1.778"/>
+<pad name="GND@4" x="66.04" y="25.4" drill="1.016" diameter="1.778"/>
+<pad name="3V3@3" x="66.04" y="30.48" drill="1.016" diameter="1.778"/>
+<pad name="RESET@2" x="63.5" y="25.4" drill="1.016" diameter="1.778"/>
+<pad name="11@2" x="34.036" y="50.8" drill="1.016" diameter="1.778"/>
+<pad name="13@2" x="28.956" y="50.8" drill="1.016" diameter="1.778"/>
+<pad name="12@2" x="31.496" y="50.8" drill="1.016" diameter="1.778"/>
+<pad name="GND@5" x="26.416" y="50.8" drill="1.016" diameter="1.778"/>
+<pad name="18@2" x="21.336" y="50.8" drill="1.016" diameter="1.778" rot="R180"/>
+<pad name="19@2" x="18.796" y="50.8" drill="1.016" diameter="1.778"/>
+<pad name="GND@6" x="36.83" y="39.37" drill="1.016" diameter="1.778"/>
+<pad name="RESET@3" x="44.45" y="39.37" drill="1.016" diameter="1.778"/>
+</package>
+<package name="TEENSY-3.5/3.6-BREAKOUT-REV-A-DUE">
+<pad name="43" x="96.52" y="40.64" drill="1.016" diameter="1.778"/>
+<pad name="A10" x="78.74" y="2.54" drill="1.016" diameter="1.778"/>
+<pad name="A11" x="81.28" y="2.54" drill="1.016" diameter="1.778"/>
+<pad name="GND@1" x="17.78" y="2.54" drill="1.016" diameter="1.778"/>
+<pad name="0" x="63.5" y="50.8" drill="1.016" diameter="1.778" rot="R180"/>
+<pad name="1" x="60.96" y="50.8" drill="1.016" diameter="1.778" rot="R180"/>
+<pad name="2" x="58.42" y="50.8" drill="1.016" diameter="1.778" rot="R180"/>
+<pad name="3" x="55.88" y="50.8" drill="1.016" diameter="1.778" rot="R180"/>
+<pad name="4" x="53.34" y="50.8" drill="1.016" diameter="1.778" rot="R180"/>
+<pad name="5" x="50.8" y="50.8" drill="1.016" diameter="1.778" rot="R180"/>
+<pad name="6" x="48.26" y="50.8" drill="1.016" diameter="1.778" rot="R180"/>
+<pad name="7" x="45.72" y="50.8" drill="1.016" diameter="1.778" rot="R180"/>
+<pad name="8" x="41.656" y="50.8" drill="1.016" diameter="1.778" rot="R180"/>
+<pad name="9" x="39.116" y="50.8" drill="1.016" diameter="1.778" rot="R180"/>
+<pad name="10" x="36.576" y="50.8" drill="1.016" diameter="1.778" rot="R180"/>
+<pad name="11@1" x="66.04" y="27.94" drill="1.016" diameter="1.778"/>
+<pad name="12@1" x="63.5" y="30.48" drill="1.016" diameter="1.778"/>
+<pad name="40" x="93.98" y="43.18" drill="1.016" diameter="1.778"/>
+<pad name="24" x="68.58" y="50.8" drill="1.016" diameter="1.778"/>
+<pad name="25" x="71.12" y="50.8" drill="1.016" diameter="1.778"/>
+<pad name="26" x="73.66" y="50.8" drill="1.016" diameter="1.778"/>
+<pad name="27" x="76.2" y="50.8" drill="1.016" diameter="1.778"/>
+<pad name="38" x="93.98" y="45.72" drill="1.016" diameter="1.778"/>
+<pad name="39" x="96.52" y="45.72" drill="1.016" diameter="1.778"/>
+<pad name="A21" x="93.98" y="20.32" drill="1.016" diameter="1.778"/>
+<pad name="A22" x="96.52" y="20.32" drill="1.016" diameter="1.778"/>
+<pad name="57" x="96.52" y="22.86" drill="1.016" diameter="1.778"/>
+<pad name="13@1" x="63.5" y="27.94" drill="1.016" diameter="1.778"/>
+<pad name="14" x="50.8" y="2.54" drill="1.016" diameter="1.778" rot="R180"/>
+<pad name="15" x="53.34" y="2.54" drill="1.016" diameter="1.778" rot="R180"/>
+<pad name="16" x="55.88" y="2.54" drill="1.016" diameter="1.778" rot="R180"/>
+<pad name="17" x="58.42" y="2.54" drill="1.016" diameter="1.778" rot="R180"/>
+<pad name="18@1" x="60.96" y="2.54" drill="1.016" diameter="1.778" rot="R180"/>
+<pad name="19@1" x="63.5" y="2.54" drill="1.016" diameter="1.778"/>
+<pad name="20" x="66.04" y="2.54" drill="1.016" diameter="1.778" rot="R270"/>
+<pad name="21" x="68.58" y="2.54" drill="1.016" diameter="1.778" rot="R270"/>
+<pad name="22" x="73.66" y="2.54" drill="1.016" diameter="1.778" rot="R270"/>
+<pad name="23" x="76.2" y="2.54" drill="1.016" diameter="1.778" rot="R270"/>
+<pad name="3V3@1" x="30.48" y="2.54" drill="1.016" diameter="1.778"/>
+<pad name="AGND" x="25.4" y="2.54" drill="1.016" diameter="1.778"/>
+<pad name="VIN" x="45.72" y="2.54" drill="1.016" diameter="1.778"/>
+<pad name="GND@2" x="40.64" y="2.54" drill="1.016" diameter="1.778"/>
+<pad name="VUSB" x="38.1" y="2.54" drill="1.016" diameter="1.778"/>
+<pad name="PRGM" x="22.86" y="2.54" drill="1.016" diameter="1.778"/>
+<pad name="RESET@1" x="33.02" y="2.54" drill="1.016" diameter="1.778"/>
+<pad name="54" x="93.98" y="25.4" drill="1.016" diameter="1.778"/>
+<pad name="31" x="83.82" y="2.54" drill="1.016" diameter="1.778"/>
+<pad name="32" x="86.36" y="2.54" drill="1.016" diameter="1.778"/>
+<pad name="41" x="96.52" y="43.18" drill="1.016" diameter="1.778"/>
+<pad name="42" x="93.98" y="40.64" drill="1.016" diameter="1.778"/>
+<pad name="34" x="91.44" y="2.54" drill="1.016" diameter="1.778"/>
+<pad name="33" x="88.9" y="2.54" drill="1.016" diameter="1.778"/>
+<pad name="56" x="93.98" y="22.86" drill="1.016" diameter="1.778"/>
+<pad name="55" x="96.52" y="25.4" drill="1.016" diameter="1.778"/>
+<pad name="37" x="96.52" y="48.26" drill="1.016" diameter="1.778"/>
+<pad name="36" x="93.98" y="48.26" drill="1.016" diameter="1.778"/>
+<pad name="35" x="86.36" y="50.8" drill="1.016" diameter="1.778"/>
+<pad name="53" x="96.52" y="27.94" drill="1.016" diameter="1.778"/>
+<pad name="28" x="78.74" y="50.8" drill="1.016" diameter="1.778"/>
+<pad name="29" x="81.28" y="50.8" drill="1.016" diameter="1.778"/>
+<pad name="30" x="83.82" y="50.8" drill="1.016" diameter="1.778"/>
+<pad name="44" x="93.98" y="38.1" drill="1.016" diameter="1.778"/>
+<pad name="A25/D2+" x="93.98" y="17.78" drill="1.016" diameter="1.778"/>
+<pad name="A26/D2-" x="96.52" y="17.78" drill="1.016" diameter="1.778"/>
+<pad name="VBAT" x="20.32" y="2.54" drill="1.016" diameter="1.778"/>
+<pad name="AREF" x="23.876" y="50.8" drill="1.016" diameter="1.778"/>
+<pad name="DC" x="77.47" y="17.78" drill="1.016" diameter="1.778"/>
+<pad name="DD" x="80.01" y="17.78" drill="1.016" diameter="1.778"/>
+<pad name="45" x="96.52" y="38.1" drill="1.016" diameter="1.778"/>
+<pad name="46" x="93.98" y="35.56" drill="1.016" diameter="1.778"/>
+<pad name="47" x="96.52" y="35.56" drill="1.016" diameter="1.778"/>
+<pad name="48" x="93.98" y="33.02" drill="1.016" diameter="1.778"/>
+<pad name="52" x="93.98" y="27.94" drill="1.016" diameter="1.778"/>
+<pad name="51" x="96.52" y="30.48" drill="1.016" diameter="1.778"/>
+<pad name="50" x="93.98" y="30.48" drill="1.016" diameter="1.778"/>
+<pad name="49" x="96.52" y="33.02" drill="1.016" diameter="1.778"/>
+<wire x1="0" y1="35.56" x2="60.96" y2="35.56" width="0.127" layer="49"/>
+<wire x1="60.96" y1="35.56" x2="60.96" y2="17.78" width="0.127" layer="49"/>
+<wire x1="60.96" y1="17.78" x2="0" y2="17.78" width="0.127" layer="49"/>
+<wire x1="0" y1="17.78" x2="0" y2="35.56" width="0.127" layer="49"/>
+<text x="1.27" y="21.59" size="2.032" layer="49">&gt;NAME</text>
+<text x="1.27" y="19.05" size="1.016" layer="49">&gt;VALUE</text>
+<circle x="13.97" y="2.54" radius="1.5875" width="0.127" layer="49"/>
+<wire x1="0" y1="0" x2="99.06" y2="0" width="0.127" layer="21"/>
+<wire x1="99.06" y1="0" x2="99.06" y2="1.27" width="0.127" layer="21"/>
+<wire x1="99.06" y1="1.27" x2="101.6" y2="3.81" width="0.127" layer="21"/>
+<wire x1="101.6" y1="3.81" x2="101.6" y2="38.1" width="0.127" layer="21"/>
+<wire x1="101.6" y1="38.1" x2="99.06" y2="40.64" width="0.127" layer="21"/>
+<wire x1="99.06" y1="40.64" x2="99.06" y2="50.8" width="0.127" layer="21"/>
+<wire x1="99.06" y1="50.8" x2="96.52" y2="53.34" width="0.127" layer="21"/>
+<wire x1="96.52" y1="53.34" x2="0" y2="53.34" width="0.127" layer="21"/>
+<wire x1="0" y1="53.34" x2="0" y2="0" width="0.127" layer="21"/>
+<circle x="15.24" y="50.8" radius="1.5875" width="0.127" layer="49"/>
+<circle x="66.04" y="35.56" radius="1.5875" width="0.127" layer="49"/>
+<circle x="66.04" y="7.62" radius="1.5875" width="0.127" layer="49"/>
+<pad name="3V3@2" x="35.56" y="2.54" drill="1.016" diameter="1.778"/>
+<pad name="NC" x="27.94" y="2.54" drill="1.016" diameter="1.778"/>
+<pad name="GND@3" x="43.18" y="2.54" drill="1.016" diameter="1.778"/>
+<pad name="GND@4" x="66.04" y="25.4" drill="1.016" diameter="1.778"/>
+<pad name="3V3@3" x="66.04" y="30.48" drill="1.016" diameter="1.778"/>
+<pad name="RESET@2" x="63.5" y="25.4" drill="1.016" diameter="1.778"/>
+<pad name="11@2" x="34.036" y="50.8" drill="1.016" diameter="1.778"/>
+<pad name="13@2" x="28.956" y="50.8" drill="1.016" diameter="1.778"/>
+<pad name="12@2" x="31.496" y="50.8" drill="1.016" diameter="1.778"/>
+<pad name="GND@5" x="26.416" y="50.8" drill="1.016" diameter="1.778"/>
+<pad name="18@2" x="21.336" y="50.8" drill="1.016" diameter="1.778" rot="R180"/>
+<pad name="19@2" x="18.796" y="50.8" drill="1.016" diameter="1.778"/>
+<pad name="GND@6" x="74.93" y="17.78" drill="1.016" diameter="1.778"/>
+<pad name="RESET@3" x="82.55" y="17.78" drill="1.016" diameter="1.778"/>
+<circle x="90.17" y="50.8" radius="1.5875" width="0.127" layer="49"/>
+<circle x="96.52" y="2.54" radius="1.5875" width="0.127" layer="49"/>
+<pad name="3V3@4" x="93.98" y="50.8" drill="1.016" diameter="1.778"/>
+<pad name="3V3@5" x="96.52" y="50.8" drill="1.016" diameter="1.778"/>
+<pad name="GND@7" x="93.98" y="15.24" drill="1.016" diameter="1.778"/>
+<pad name="GND@8" x="96.52" y="15.24" drill="1.016" diameter="1.778"/>
+<pad name="GND@9" x="93.98" y="12.7" drill="1.016" diameter="1.778"/>
+<pad name="GND@10" x="96.52" y="12.7" drill="1.016" diameter="1.778"/>
+<pad name="GND@11" x="93.98" y="10.16" drill="1.016" diameter="1.778"/>
+<pad name="GND@12" x="96.52" y="10.16" drill="1.016" diameter="1.778"/>
+<pad name="GND@13" x="93.98" y="7.62" drill="1.016" diameter="1.778"/>
+<pad name="GND@14" x="96.52" y="7.62" drill="1.016" diameter="1.778"/>
+</package>
 </packages>
 <symbols>
 <symbol name="TEENSY-3.2-BREAKOUT-REV-A">
@@ -1468,6 +1662,138 @@
 <pin name="USBID" x="15.24" y="0" visible="pin" length="short" rot="R180"/>
 <wire x1="-12.7" y1="-15.24" x2="-12.7" y2="2.54" width="0.254" layer="94"/>
 <wire x1="-12.7" y1="-15.24" x2="12.7" y2="-15.24" width="0.254" layer="94" style="shortdash"/>
+</symbol>
+<symbol name="TEENSY-3.5/3.6-BREAKOUT-REV-A-UNO">
+<wire x1="-12.7" y1="2.54" x2="12.7" y2="2.54" width="0.254" layer="94"/>
+<wire x1="12.7" y1="2.54" x2="12.7" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-15.24" x2="12.7" y2="-48.26" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-48.26" x2="-12.7" y2="-48.26" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="-48.26" x2="-12.7" y2="-15.24" width="0.254" layer="94"/>
+<pin name="GND" x="-15.24" y="0" visible="pin" length="short"/>
+<pin name="0" x="-15.24" y="-17.78" visible="pin" length="short"/>
+<pin name="1" x="-15.24" y="-20.32" visible="pin" length="short"/>
+<pin name="2" x="-15.24" y="-22.86" visible="pin" length="short"/>
+<pin name="3" x="-15.24" y="-25.4" visible="pin" length="short"/>
+<pin name="4" x="-15.24" y="-27.94" visible="pin" length="short"/>
+<pin name="5" x="-15.24" y="-30.48" visible="pin" length="short"/>
+<pin name="6" x="-15.24" y="-33.02" visible="pin" length="short"/>
+<pin name="7" x="-15.24" y="-35.56" visible="pin" length="short"/>
+<pin name="8" x="-15.24" y="-38.1" visible="pin" length="short"/>
+<pin name="9" x="-15.24" y="-40.64" visible="pin" length="short"/>
+<pin name="10" x="-15.24" y="-43.18" visible="pin" length="short"/>
+<pin name="11" x="-15.24" y="-45.72" visible="pin" length="short"/>
+<pin name="12" x="15.24" y="-45.72" visible="pin" length="short" rot="R180"/>
+<pin name="13" x="15.24" y="-43.18" visible="pin" length="short" rot="R180"/>
+<pin name="14" x="15.24" y="-40.64" visible="pin" length="short" rot="R180"/>
+<pin name="15" x="15.24" y="-38.1" visible="pin" length="short" rot="R180"/>
+<pin name="16" x="15.24" y="-35.56" visible="pin" length="short" rot="R180"/>
+<pin name="17" x="15.24" y="-33.02" visible="pin" length="short" rot="R180"/>
+<pin name="18" x="15.24" y="-30.48" visible="pin" length="short" rot="R180"/>
+<pin name="19" x="15.24" y="-27.94" visible="pin" length="short" rot="R180"/>
+<pin name="20" x="15.24" y="-25.4" visible="pin" length="short" rot="R180"/>
+<pin name="21" x="15.24" y="-22.86" visible="pin" length="short" rot="R180"/>
+<pin name="22" x="15.24" y="-20.32" visible="pin" length="short" rot="R180"/>
+<pin name="23" x="15.24" y="-17.78" visible="pin" length="short" rot="R180"/>
+<pin name="3V3" x="-15.24" y="-7.62" visible="pin" length="short"/>
+<pin name="AGND" x="-15.24" y="-2.54" visible="pin" length="short"/>
+<pin name="VIN" x="-15.24" y="-5.08" visible="pin" length="short"/>
+<pin name="VUSB" x="-15.24" y="-10.16" visible="pin" length="short"/>
+<pin name="PRGM" x="15.24" y="-7.62" visible="pin" length="short" rot="R180"/>
+<pin name="RESET" x="15.24" y="-5.08" visible="pin" length="short" rot="R180"/>
+<text x="0" y="-50.8" size="1.016" layer="94" align="center">&gt;VALUE</text>
+<text x="0" y="5.08" size="2.032" layer="94" align="center">&gt;NAME</text>
+<pin name="VBAT" x="-15.24" y="-12.7" visible="pin" length="short"/>
+<pin name="AREF" x="15.24" y="-12.7" visible="pin" length="short" rot="R180"/>
+<pin name="DC" x="15.24" y="0" visible="pin" length="short" rot="R180"/>
+<pin name="DD" x="15.24" y="-2.54" visible="pin" length="short" rot="R180"/>
+<wire x1="-12.7" y1="-15.24" x2="-12.7" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="-15.24" x2="12.7" y2="-15.24" width="0.254" layer="94" style="shortdash"/>
+</symbol>
+<symbol name="TEENSY-3.5/3.6-BREAKOUT-REV-A-DUE">
+<wire x1="-12.7" y1="2.54" x2="12.7" y2="2.54" width="0.254" layer="94"/>
+<wire x1="12.7" y1="2.54" x2="12.7" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-17.78" x2="12.7" y2="-99.06" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-99.06" x2="-12.7" y2="-99.06" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="-99.06" x2="-12.7" y2="-17.78" width="0.254" layer="94"/>
+<pin name="A10" x="15.24" y="-27.94" visible="pin" length="short" rot="R180"/>
+<pin name="A11" x="15.24" y="-25.4" visible="pin" length="short" rot="R180"/>
+<pin name="GND" x="-15.24" y="0" visible="pin" length="short"/>
+<pin name="0" x="-15.24" y="-20.32" visible="pin" length="short"/>
+<pin name="1" x="-15.24" y="-22.86" visible="pin" length="short"/>
+<pin name="2" x="-15.24" y="-25.4" visible="pin" length="short"/>
+<pin name="3" x="-15.24" y="-27.94" visible="pin" length="short"/>
+<pin name="4" x="-15.24" y="-30.48" visible="pin" length="short"/>
+<pin name="5" x="-15.24" y="-33.02" visible="pin" length="short"/>
+<pin name="6" x="-15.24" y="-35.56" visible="pin" length="short"/>
+<pin name="7" x="-15.24" y="-38.1" visible="pin" length="short"/>
+<pin name="8" x="-15.24" y="-40.64" visible="pin" length="short"/>
+<pin name="9" x="-15.24" y="-43.18" visible="pin" length="short"/>
+<pin name="10" x="-15.24" y="-45.72" visible="pin" length="short"/>
+<pin name="11" x="-15.24" y="-48.26" visible="pin" length="short"/>
+<pin name="12" x="-15.24" y="-50.8" visible="pin" length="short"/>
+<pin name="24" x="-15.24" y="-81.28" visible="pin" length="short"/>
+<pin name="25" x="-15.24" y="-83.82" visible="pin" length="short"/>
+<pin name="26" x="-15.24" y="-86.36" visible="pin" length="short"/>
+<pin name="27" x="-15.24" y="-88.9" visible="pin" length="short"/>
+<pin name="28" x="-15.24" y="-91.44" visible="pin" length="short"/>
+<pin name="37" x="15.24" y="-81.28" visible="pin" length="short" rot="R180"/>
+<pin name="38" x="15.24" y="-78.74" visible="pin" length="short" rot="R180"/>
+<pin name="39" x="15.24" y="-76.2" visible="pin" length="short" rot="R180"/>
+<pin name="A21" x="15.24" y="-22.86" visible="pin" length="short" rot="R180"/>
+<pin name="A22" x="15.24" y="-20.32" visible="pin" length="short" rot="R180"/>
+<pin name="13" x="-15.24" y="-53.34" visible="pin" length="short"/>
+<pin name="14" x="-15.24" y="-55.88" visible="pin" length="short"/>
+<pin name="15" x="-15.24" y="-58.42" visible="pin" length="short"/>
+<pin name="16" x="-15.24" y="-60.96" visible="pin" length="short"/>
+<pin name="17" x="-15.24" y="-63.5" visible="pin" length="short"/>
+<pin name="18" x="-15.24" y="-66.04" visible="pin" length="short"/>
+<pin name="19" x="-15.24" y="-68.58" visible="pin" length="short"/>
+<pin name="20" x="-15.24" y="-71.12" visible="pin" length="short"/>
+<pin name="21" x="-15.24" y="-73.66" visible="pin" length="short"/>
+<pin name="22" x="-15.24" y="-76.2" visible="pin" length="short"/>
+<pin name="23" x="-15.24" y="-78.74" visible="pin" length="short"/>
+<pin name="3V3" x="-15.24" y="-7.62" visible="pin" length="short"/>
+<pin name="AGND" x="-15.24" y="-2.54" visible="pin" length="short"/>
+<pin name="VIN" x="-15.24" y="-5.08" visible="pin" length="short"/>
+<pin name="VUSB" x="-15.24" y="-10.16" visible="pin" length="short"/>
+<pin name="PRGM" x="15.24" y="-7.62" visible="pin" length="short" rot="R180"/>
+<pin name="RESET" x="15.24" y="-5.08" visible="pin" length="short" rot="R180"/>
+<text x="0" y="-101.6" size="1.016" layer="94" align="center">&gt;VALUE</text>
+<text x="0" y="5.08" size="2.032" layer="94" align="center">&gt;NAME</text>
+<pin name="29" x="-15.24" y="-93.98" visible="pin" length="short"/>
+<pin name="30" x="-15.24" y="-96.52" visible="pin" length="short"/>
+<pin name="36" x="15.24" y="-83.82" visible="pin" length="short" rot="R180"/>
+<pin name="35" x="15.24" y="-86.36" visible="pin" length="short" rot="R180"/>
+<pin name="40" x="15.24" y="-73.66" visible="pin" length="short" rot="R180"/>
+<pin name="57" x="15.24" y="-30.48" visible="pin" length="short" rot="R180"/>
+<pin name="31" x="15.24" y="-96.52" visible="pin" length="short" rot="R180"/>
+<pin name="32" x="15.24" y="-93.98" visible="pin" length="short" rot="R180"/>
+<pin name="41" x="15.24" y="-71.12" visible="pin" length="short" rot="R180"/>
+<pin name="42" x="15.24" y="-68.58" visible="pin" length="short" rot="R180"/>
+<pin name="43" x="15.24" y="-66.04" visible="pin" length="short" rot="R180"/>
+<pin name="44" x="15.24" y="-63.5" visible="pin" length="short" rot="R180"/>
+<pin name="34" x="15.24" y="-88.9" visible="pin" length="short" rot="R180"/>
+<pin name="33" x="15.24" y="-91.44" visible="pin" length="short" rot="R180"/>
+<pin name="56" x="15.24" y="-33.02" visible="pin" length="short" rot="R180"/>
+<pin name="55" x="15.24" y="-35.56" visible="pin" length="short" rot="R180"/>
+<pin name="54" x="15.24" y="-38.1" visible="pin" length="short" rot="R180"/>
+<pin name="53" x="15.24" y="-40.64" visible="pin" length="short" rot="R180"/>
+<pin name="45" x="15.24" y="-60.96" visible="pin" length="short" rot="R180"/>
+<pin name="46" x="15.24" y="-58.42" visible="pin" length="short" rot="R180"/>
+<pin name="47" x="15.24" y="-55.88" visible="pin" length="short" rot="R180"/>
+<pin name="52" x="15.24" y="-43.18" visible="pin" length="short" rot="R180"/>
+<pin name="51" x="15.24" y="-45.72" visible="pin" length="short" rot="R180"/>
+<pin name="50" x="15.24" y="-48.26" visible="pin" length="short" rot="R180"/>
+<pin name="A25/D2+" x="15.24" y="-15.24" visible="pin" length="short" rot="R180"/>
+<pin name="A26/D2-" x="15.24" y="-12.7" visible="pin" length="short" rot="R180"/>
+<pin name="VBAT" x="-15.24" y="-12.7" visible="pin" length="short"/>
+<pin name="48" x="15.24" y="-53.34" visible="pin" length="short" rot="R180"/>
+<pin name="49" x="15.24" y="-50.8" visible="pin" length="short" rot="R180"/>
+<pin name="AREF" x="-15.24" y="-15.24" visible="pin" length="short"/>
+<pin name="DC" x="15.24" y="0" visible="pin" length="short" rot="R180"/>
+<pin name="DD" x="15.24" y="-2.54" visible="pin" length="short" rot="R180"/>
+<wire x1="-12.7" y1="-17.78" x2="-12.7" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="-17.78" x2="12.7" y2="-17.78" width="0.254" layer="94" style="shortdash"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -2364,6 +2690,144 @@
 <connect gate="G$1" pin="USBD+" pad="USBD+"/>
 <connect gate="G$1" pin="USBD-" pad="USBD-"/>
 <connect gate="G$1" pin="USBID" pad="USBID"/>
+<connect gate="G$1" pin="VBAT" pad="VBAT"/>
+<connect gate="G$1" pin="VIN" pad="VIN"/>
+<connect gate="G$1" pin="VUSB" pad="VUSB"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="TEENSY-3.5/3.6-BREAKOUT-REV-A-UNO">
+<gates>
+<gate name="G$1" symbol="TEENSY-3.5/3.6-BREAKOUT-REV-A-UNO" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="TEENSY-3.5/3.6-BREAKOUT-REV-A-UNO">
+<connects>
+<connect gate="G$1" pin="0" pad="0"/>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="10" pad="10"/>
+<connect gate="G$1" pin="11" pad="11@1 11@2"/>
+<connect gate="G$1" pin="12" pad="12@1 12@2"/>
+<connect gate="G$1" pin="13" pad="13@1 13@2"/>
+<connect gate="G$1" pin="14" pad="14"/>
+<connect gate="G$1" pin="15" pad="15"/>
+<connect gate="G$1" pin="16" pad="16"/>
+<connect gate="G$1" pin="17" pad="17"/>
+<connect gate="G$1" pin="18" pad="18@1 18@2"/>
+<connect gate="G$1" pin="19" pad="19@1 19@2"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="20" pad="20"/>
+<connect gate="G$1" pin="21" pad="21"/>
+<connect gate="G$1" pin="22" pad="22"/>
+<connect gate="G$1" pin="23" pad="23"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="3V3" pad="3V3@1 3V3@2 3V3@3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+<connect gate="G$1" pin="9" pad="9"/>
+<connect gate="G$1" pin="AGND" pad="AGND"/>
+<connect gate="G$1" pin="AREF" pad="AREF"/>
+<connect gate="G$1" pin="DC" pad="DC"/>
+<connect gate="G$1" pin="DD" pad="DD"/>
+<connect gate="G$1" pin="GND" pad="GND@1 GND@2 GND@3 GND@4 GND@5 GND@6"/>
+<connect gate="G$1" pin="PRGM" pad="PRGM"/>
+<connect gate="G$1" pin="RESET" pad="RESET@1 RESET@2 RESET@3"/>
+<connect gate="G$1" pin="VBAT" pad="VBAT"/>
+<connect gate="G$1" pin="VIN" pad="VIN"/>
+<connect gate="G$1" pin="VUSB" pad="VUSB"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="TEENSY-3.5/3.6-BREAKOUT-REV-A-DUE">
+<gates>
+<gate name="G$1" symbol="TEENSY-3.5/3.6-BREAKOUT-REV-A-DUE" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="TEENSY-3.5/3.6-BREAKOUT-REV-A-DUE">
+<connects>
+<connect gate="G$1" pin="0" pad="0"/>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="10" pad="10"/>
+<connect gate="G$1" pin="11" pad="11@1 11@2"/>
+<connect gate="G$1" pin="12" pad="12@1 12@2"/>
+<connect gate="G$1" pin="13" pad="13@1 13@2"/>
+<connect gate="G$1" pin="14" pad="14"/>
+<connect gate="G$1" pin="15" pad="15"/>
+<connect gate="G$1" pin="16" pad="16"/>
+<connect gate="G$1" pin="17" pad="17"/>
+<connect gate="G$1" pin="18" pad="18@1 18@2"/>
+<connect gate="G$1" pin="19" pad="19@1 19@2"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="20" pad="20"/>
+<connect gate="G$1" pin="21" pad="21"/>
+<connect gate="G$1" pin="22" pad="22"/>
+<connect gate="G$1" pin="23" pad="23"/>
+<connect gate="G$1" pin="24" pad="24"/>
+<connect gate="G$1" pin="25" pad="25"/>
+<connect gate="G$1" pin="26" pad="26"/>
+<connect gate="G$1" pin="27" pad="27"/>
+<connect gate="G$1" pin="28" pad="28"/>
+<connect gate="G$1" pin="29" pad="29"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="30" pad="30"/>
+<connect gate="G$1" pin="31" pad="31"/>
+<connect gate="G$1" pin="32" pad="32"/>
+<connect gate="G$1" pin="33" pad="33"/>
+<connect gate="G$1" pin="34" pad="34"/>
+<connect gate="G$1" pin="35" pad="35"/>
+<connect gate="G$1" pin="36" pad="36"/>
+<connect gate="G$1" pin="37" pad="37"/>
+<connect gate="G$1" pin="38" pad="38"/>
+<connect gate="G$1" pin="39" pad="39"/>
+<connect gate="G$1" pin="3V3" pad="3V3@1 3V3@2 3V3@3 3V3@4 3V3@5"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="40" pad="40"/>
+<connect gate="G$1" pin="41" pad="41"/>
+<connect gate="G$1" pin="42" pad="42"/>
+<connect gate="G$1" pin="43" pad="43"/>
+<connect gate="G$1" pin="44" pad="44"/>
+<connect gate="G$1" pin="45" pad="45"/>
+<connect gate="G$1" pin="46" pad="46"/>
+<connect gate="G$1" pin="47" pad="47"/>
+<connect gate="G$1" pin="48" pad="48"/>
+<connect gate="G$1" pin="49" pad="49"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="50" pad="50"/>
+<connect gate="G$1" pin="51" pad="51"/>
+<connect gate="G$1" pin="52" pad="52"/>
+<connect gate="G$1" pin="53" pad="53"/>
+<connect gate="G$1" pin="54" pad="54"/>
+<connect gate="G$1" pin="55" pad="55"/>
+<connect gate="G$1" pin="56" pad="56"/>
+<connect gate="G$1" pin="57" pad="57"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+<connect gate="G$1" pin="9" pad="9"/>
+<connect gate="G$1" pin="A10" pad="A10"/>
+<connect gate="G$1" pin="A11" pad="A11"/>
+<connect gate="G$1" pin="A21" pad="A21"/>
+<connect gate="G$1" pin="A22" pad="A22"/>
+<connect gate="G$1" pin="A25/D2+" pad="A25/D2+"/>
+<connect gate="G$1" pin="A26/D2-" pad="A26/D2-"/>
+<connect gate="G$1" pin="AGND" pad="AGND"/>
+<connect gate="G$1" pin="AREF" pad="AREF"/>
+<connect gate="G$1" pin="DC" pad="DC"/>
+<connect gate="G$1" pin="DD" pad="DD"/>
+<connect gate="G$1" pin="GND" pad="GND@1 GND@2 GND@3 GND@4 GND@5 GND@6 GND@7 GND@8 GND@9 GND@10 GND@11 GND@12 GND@13 GND@14"/>
+<connect gate="G$1" pin="PRGM" pad="PRGM"/>
+<connect gate="G$1" pin="RESET" pad="RESET@1 RESET@2 RESET@3"/>
 <connect gate="G$1" pin="VBAT" pad="VBAT"/>
 <connect gate="G$1" pin="VIN" pad="VIN"/>
 <connect gate="G$1" pin="VUSB" pad="VUSB"/>
