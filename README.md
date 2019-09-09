@@ -7,6 +7,7 @@ Note: Each Eurorack module has its own repo:
 * [uClouds SE](https://github.com/loglow/uClouds_SE)
 * [uo_C SE](https://github.com/loglow/uo_C_SE)
 * [uRings SE](https://github.com/loglow/uRings_SE)
+* [uPlaits SE](https://github.com/loglow/uPlaits_SE)
 
 ## Teensy-Breakout-Eagle-Library.lbr
 
